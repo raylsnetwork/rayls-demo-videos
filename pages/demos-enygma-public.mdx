@@ -1,0 +1,46 @@
+export const Demo = ({ date, title, by, children }) => (
+  <div style={{ position: 'relative', marginLeft: 7, paddingLeft: 28, paddingBottom: 40, borderLeft: '2px solid rgba(123, 92, 250, 0.35)' }}>
+    <span style={{ position: 'absolute', left: -8, top: 3, width: 14, height: 14, borderRadius: '50%', background: '#7B5CFA' }} />
+    <div style={{ fontSize: 13, fontWeight: 600, letterSpacing: '0.04em', textTransform: 'uppercase', color: '#7B5CFA' }}>{date}</div>
+    <div style={{ fontSize: 20, fontWeight: 600, lineHeight: 1.3, margin: '4px 0 2px' }}>{title}</div>
+    <div style={{ fontSize: 14, opacity: 0.7, marginBottom: 12 }}>{by}</div>
+    {children}
+  </div>
+)
+
+Recorded demos of Enygma Public, newest first.
+
+<Demo date="24 November 2026" title={"What \"quantum-private\" means"} by="Alex Jupiter">
+
+A 60-second explainer: why elliptic-curve encryption won't survive a quantum computer, how ML-KEM lattice encryption does, and how Enygma adds a zero-knowledge proof on top.
+
+<video controls preload="metadata" playsInline poster="https://rayls-demo-videos.pending/posters/2026-11-24-enygma-quantum-private-explained.jpg" style={{ display: 'block', width: '100%', maxWidth: '100%', aspectRatio: '16/9', borderRadius: 8, background: '#000' }}><source src="https://rayls-demo-videos.pending/videos/2026-11-24-enygma-quantum-private-explained.mp4" type="video/mp4" /></video>
+</Demo>
+
+<Demo date="20 November 2026" title={"Testnet pilot updates and a shielded swap"} by="Alex Jupiter">
+
+What changed in the testnet pilot, then a swap between two shielded tokens.
+
+<iframe src="https://www.loom.com/embed/6f34199ce8f04b3d90b377170e3e0363?hide_owner=true&hide_share=true&hide_title=true" title="Testnet pilot updates and a shielded swap" allowFullScreen style={{ display: 'block', width: '100%', aspectRatio: '1036/777', border: 0, borderRadius: 8 }} />
+</Demo>
+
+<Demo date="20 November 2026" title={"From sign-up to a shielded payment"} by="Selvaggia Di Fazio">
+
+Sign-up, proof made in the browser and a payment sent through the relayer, at 8x speed.
+
+<iframe src="https://platform.twitter.com/embed/Tweet.html?id=2123705003005153364&dnt=true" title="From sign-up to a shielded payment" scrolling="no" style={{ display: 'block', width: '100%', maxWidth: 550, height: 640, border: 0 }} />
+</Demo>
+
+<Demo date="13 November 2026" title={"Quick tour with a passkey"} by="Alex Jupiter">
+
+Sign up with a passkey, get test tokens, shield, send and unshield on the testnet.
+
+<iframe src="https://www.loom.com/embed/ba6167fcdd4b46fbb4470b0622d356b5?hide_owner=true&hide_share=true&hide_title=true" title="Quick tour with a passkey" allowFullScreen style={{ display: 'block', width: '100%', aspectRatio: '1130/847', border: 0, borderRadius: 8 }} />
+</Demo>
+
+<Demo date="9 November 2026" title={"Launch walkthrough"} by="Alex Jupiter">
+
+The testnet pilot at launch: a shielded $USDr payment, start to finish, in 30 seconds.
+
+<video controls preload="metadata" playsInline poster="https://rayls-demo-videos.pending/posters/2026-11-09-enygma-public-launch-walkthrough.jpg" style={{ display: 'block', width: '100%', maxWidth: '540px', aspectRatio: '1/1', borderRadius: 8, background: '#000' }}><source src="https://rayls-demo-videos.pending/videos/2026-11-09-enygma-public-launch-walkthrough.mp4" type="video/mp4" /></video>
+</Demo>
