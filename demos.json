@@ -65,6 +65,59 @@
       "by": "Selvaggia Di Fazio",
       "text": "From sign-up to a running Rayls Sovereign chain, timed, with no code.",
       "x": "2113614568912216333"
+    },
+    {
+      "date": "2026-11-20",
+      "section": "Enygma Public",
+      "title": "Private swaps on the testnet",
+      "by": "Rayls",
+      "text": "Swapping testnet $RLS for $USDr without the trade details showing onchain.",
+      "x": "2123826546926342459"
+    },
+    {
+      "date": "2026-11-13",
+      "section": "Enygma Public",
+      "title": "Private payments on a public chain",
+      "by": "Alex Jupiter",
+      "text": "A walk through the Enygma Public testnet: the problem it solves, what happens when you send a private payment, and how the auditor fits in.",
+      "x": "2121346003370647593"
+    },
+    {
+      "date": "2026-11-12",
+      "section": "Enygma Public",
+      "title": "Product AMA: Enygma Public demo",
+      "by": "Alex Jupiter",
+      "text": "From the launch AMA: setting up a wallet, shielding, sending and unshielding on the testnet, how Enygma Public compares, and how shielding works.",
+      "parts": [
+        "2026-11-12-enygma-public-ama-demo-part1",
+        "2026-11-12-enygma-public-ama-demo-part2"
+      ],
+      "ratio": "16/9",
+      "full": "https://x.com/RaylsLabs/status/2120881854442065955"
+    },
+    {
+      "date": "2026-10-20",
+      "section": "Rayls Public Chain",
+      "title": "First vault on Rayls: launch deposits demo",
+      "by": "Alex Jupiter",
+      "text": "From the vault launch AMA: the Rayls Vault Launch Deposits page in the dapp, getting $BRL1.p, making a deposit and the weekly deposit caps.",
+      "file": "2026-10-20-public-chain-first-vault-ama-demo",
+      "ratio": "16/9",
+      "full": "https://x.com/RaylsLabs/status/2112530283287519692"
+    },
+    {
+      "date": "2026-06-11",
+      "section": "Rayls Public Chain",
+      "title": "Product AMA: DEX, bridging and staking",
+      "by": "Alex Jupiter",
+      "text": "From the product AMA: the ecosystem page, adding Rayls to a wallet, bridging, the DEX, getting $USDr, and delegated staking with the validator list.",
+      "parts": [
+        "2026-06-11-public-chain-dex-bridge-staking-ama-demo-part1",
+        "2026-06-11-public-chain-dex-bridge-staking-ama-demo-part2",
+        "2026-06-11-public-chain-dex-bridge-staking-ama-demo-part3"
+      ],
+      "ratio": "16/9",
+      "full": "https://x.com/RaylsLabs/status/2065057517902942405"
     }
   ]
 }
