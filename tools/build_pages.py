@@ -62,7 +62,18 @@ def page(section, demos):
         out.append("")
         out.append(d["text"])
         out.append("")
-        out.append(player(d))
+        if "parts" in d:
+            # Long cuts are split to stay under jsDelivr's 20 MB per file.
+            for i, f in enumerate(d["parts"], 1):
+                out.append(f"**Part {i} of {len(d['parts'])}**\n")
+                out.append(player({**d, "file": f}))
+                out.append("")
+        else:
+            out.append(player(d))
+        if "full" in d:
+            out.append("")
+            out.append(f"Cut from the [full recording on X]({d['full']}), screen share only.")
+            out.append("")
         out.append("</Demo>\n")
     return "\n".join(out)
 
