@@ -1,30 +1,70 @@
 {
   "sections": [
-    {"category": "Rayls Public Chain", "slug": "demos-public-chain", "name": "the Rayls Public Chain"},
-    {"category": "$RLS Token", "slug": "demos-rls-token", "name": "$RLS"},
-    {"category": "Rayls Sovereign", "slug": "demos-rayls-sovereign", "name": "Rayls Sovereign"},
-    {"category": "Rayls Private Networks", "slug": "demos-private-networks", "name": "Rayls Private Networks"},
-    {"category": "Enygma Sovereign", "slug": "demos-enygma-sovereign", "name": "Enygma Sovereign"},
-    {"category": "Enygma Public", "slug": "demos-enygma-public", "name": "Enygma Public"}
+    {
+      "category": "Rayls Public Chain",
+      "slug": "demos-public-chain",
+      "name": "the Rayls Public Chain"
+    },
+    {
+      "category": "$RLS Token",
+      "slug": "demos-rls-token",
+      "name": "$RLS"
+    },
+    {
+      "category": "Rayls Sovereign",
+      "slug": "demos-rayls-sovereign",
+      "name": "Rayls Sovereign"
+    },
+    {
+      "category": "Rayls Private Networks",
+      "slug": "demos-private-networks",
+      "name": "Rayls Private Networks"
+    },
+    {
+      "category": "Enygma Sovereign",
+      "slug": "demos-enygma-sovereign",
+      "name": "Enygma Sovereign"
+    },
+    {
+      "category": "Enygma Public",
+      "slug": "demos-enygma-public",
+      "name": "Enygma Public"
+    }
   ],
   "demos": [
-    {"date": "2026-11-24", "section": "Enygma Public", "title": "What \"quantum-private\" means", "by": "Alex Jupiter",
-     "text": "A 60-second explainer: why elliptic-curve encryption won't survive a quantum computer, how ML-KEM lattice encryption does, and how Enygma adds a zero-knowledge proof on top.",
-     "file": "2026-11-24-enygma-quantum-private-explained", "ratio": "16/9"},
-    {"date": "2026-11-20", "section": "Enygma Public", "title": "Testnet pilot updates and a shielded swap", "by": "Alex Jupiter",
-     "text": "What changed in the testnet pilot, then a swap between two shielded tokens.",
-     "loom": "6f34199ce8f04b3d90b377170e3e0363", "ratio": "1036/777"},
-    {"date": "2026-11-20", "section": "Enygma Public", "title": "From sign-up to a shielded payment", "by": "Selvaggia Di Fazio",
-     "text": "Sign-up, proof made in the browser and a payment sent through the relayer, at 8x speed.",
-     "x": "2123705003005153364"},
-    {"date": "2026-11-13", "section": "Enygma Public", "title": "Quick tour with a passkey", "by": "Alex Jupiter",
-     "text": "Sign up with a passkey, get test tokens, shield, send and unshield on the testnet.",
-     "loom": "ba6167fcdd4b46fbb4470b0622d356b5", "ratio": "1130/847"},
-    {"date": "2026-11-09", "section": "Enygma Public", "title": "Launch walkthrough", "by": "Alex Jupiter",
-     "text": "The testnet pilot at launch: a shielded $USDr payment, start to finish, in 30 seconds.",
-     "file": "2026-11-09-enygma-public-launch-walkthrough", "ratio": "1/1"},
-    {"date": "2026-10-23", "section": "Rayls Sovereign", "title": "Sign-up to a running chain in under 7 minutes", "by": "Selvaggia Di Fazio",
-     "text": "From sign-up to a running Rayls Sovereign chain, timed, with no code.",
-     "x": "2113614568912216333"}
+    {
+      "date": "2026-11-24",
+      "section": "Enygma Public",
+      "title": "What \"quantum-private\" means",
+      "by": "Alex Jupiter",
+      "text": "A 60-second explainer: why elliptic-curve encryption won't survive a quantum computer, how ML-KEM lattice encryption does, and how Enygma adds a zero-knowledge proof on top.",
+      "file": "2026-11-24-enygma-quantum-private-explained",
+      "ratio": "16/9"
+    },
+    {
+      "date": "2026-11-20",
+      "section": "Enygma Public",
+      "title": "From sign-up to a shielded payment",
+      "by": "Selvaggia Di Fazio",
+      "text": "Sign-up, proof made in the browser and a payment sent through the relayer, at 8x speed.",
+      "x": "2123705003005153364"
+    },
+    {
+      "date": "2026-11-09",
+      "section": "Enygma Public",
+      "title": "Launch walkthrough",
+      "by": "Alex Jupiter",
+      "text": "The testnet pilot at launch: a shielded $USDr payment, start to finish, in 30 seconds.",
+      "file": "2026-11-09-enygma-public-launch-walkthrough",
+      "ratio": "1/1"
+    },
+    {
+      "date": "2026-10-23",
+      "section": "Rayls Sovereign",
+      "title": "Sign-up to a running chain in under 7 minutes",
+      "by": "Selvaggia Di Fazio",
+      "text": "From sign-up to a running Rayls Sovereign chain, timed, with no code.",
+      "x": "2113614568912216333"
+    }
   ]
 }
