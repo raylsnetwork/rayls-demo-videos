@@ -63,7 +63,7 @@ def page(section, demos):
         out.append(d["text"])
         out.append("")
         if "parts" in d:
-            # Long cuts are split to stay under jsDelivr's 20 MB per file.
+            # Long cuts are split into ~8 min parts so each loads quickly.
             for i, f in enumerate(d["parts"], 1):
                 out.append(f"**Part {i} of {len(d['parts'])}**\n")
                 out.append(player({**d, "file": f}))
